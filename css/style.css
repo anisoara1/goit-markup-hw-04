@@ -1,0 +1,381 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #2196f3;
+  --medium-grey: #757575;
+  --dark-grey: #2F303A;
+  --font-family: "Roboto", sans-serif;
+  --font-weight: 400;
+  --font-size: 14px;
+  --letter-spacing: 0.03em;
+}
+
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  letter-spacing: var(--letter-spacing);
+  background: var(--white);
+  color: var(--black);
+  font-style: normal;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color:var(--black)
+}
+
+.footer-logo{
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color:var(--white)
+}
+ 
+.logo-color {
+  color: var(--blue);
+}
+
+.button-item-portofolio,
+.button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  letter-spacing: 0.06em;
+}
+
+.button-item-portofolio:hover,
+.button-item-portofolio:focus,
+.button-item:hover,
+.button-item:focus {
+  background: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+  box-shadow: 
+    0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.contact-telephone,
+.contact-mail{
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  color: var(--medium-grey);
+  text-decoration: none;
+}
+
+.contact-item-footer {
+  line-height: 1.14;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-telephone:hover,
+.contact-telephone:focus,
+.contact-item-footer:hover,
+.contact-item-footer:focus,
+.navigate-item:hover,
+.navigate-item:focus {
+  color: var(--blue);
+}
+
+.navigate-item,
+.navigate-item:active {
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.contact-section-footer,
+.portofolio-list,
+.our-team-image,
+.what-we-do-list,
+.our-service-list,
+.button-section,
+.contact-section,
+.navigate-section {
+  list-style: none;
+}
+
+.address-section {
+  line-height: 1.42;
+  color: var(--white);
+  font-style: normal;   
+}
+
+.footer-section,
+.first-section {
+  background: #2F303A;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  text-align: center;
+}
+
+ .our-service {
+  font-weight: 700;
+  line-height: 1.42;
+ }
+
+.about-us {
+  line-height: 1.71;
+  color: var(--medium-grey);
+  
+}
+
+.what-we-do-section,
+.our-team-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.last-section {
+  background: #F5F4FA;
+}
+
+.our-team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.our-team-specialist {
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight:var(--font-weight);
+  text-align: center;
+  color: var(--medium-grey);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type{
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--medium-grey);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto; 
+}
+ .header-section {
+  border-bottom: 1px solid #ECECEC;
+ }
+
+.logo {
+ margin: 0 0 0 94px;
+}
+
+.header{
+display: flex;
+align-items: center;
+}
+
+.navigate-section {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 50px;
+ margin: 32px 0 32px 93px ;
+ padding: 0;
+}
+
+.contact-section {
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: row;
+ justify-content: center;
+ gap: 40px;
+ margin: 32px auto 32px auto;
+ padding: 0;
+}
+
+.title-section {
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-title {
+ margin: 200px 0 0 0;
+} 
+
+.button-item {
+ margin: 0 auto 200px auto;
+ padding:10px 20px;
+}
+
+.second-section{
+  display: flex;
+}
+.second-section h3 {
+ margin: 0;
+}
+
+.our-service-list {
+  margin: 94px auto;
+  padding:0;
+  display: flex;
+  gap: 30px;
+}
+
+.our-service-list p {
+  width: 270px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.third-section {
+  display: flex;
+}
+
+.third-section h2 {
+  margin: 0;
+}
+
+.what-we-do-list {
+  margin: 50px auto 94px auto;
+  display: flex;
+  padding:0;
+  gap: 30px;
+}
+
+.what-we-do-image {
+  display: block;
+}
+
+.last-section{
+  display: flex;
+}
+
+.last-section h2{
+  margin: 94px 0 0 0;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 30px;
+  padding:  0;
+  margin: 50px auto 94px auto ;
+}
+
+.our-team-photo {
+  display: block;
+}
+
+.our-team-list h3 {
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+
+.our-team-list h4 {
+  padding: 0;
+  margin: 10px 0 30px 0;
+}
+
+.our-team-image {
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin: 60px auto 28px auto;
+}
+
+.contact-section-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 60px auto;
+  padding: 0;
+  gap: 12px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 94px auto 0 auto;
+  padding: 0;
+}
+
+.button-item-portofolio {
+  padding: 6px 22px;
+}
+
+.portofolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  margin: 50px 0 94px 0;
+  padding: 0; 
+}
+
+.portofolio-section {
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.portofolio-list-image{
+  height: 294px;
+}
+
+ .portofolio-list li {
+  border: 1px solid #EEEEEE;
+}
+
+.project-title {
+  padding: 0;
+  margin: 20px 24px 0 24px;
+} 
+
+.project-type {
+  font-weight: 400;
+  padding: 0;
+  margin: 4px 24px 20px 24px;
+}
+ 
