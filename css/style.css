@@ -58,9 +58,7 @@ body {
 }
 
 .button-item-portofolio:hover,
-.button-item-portofolio:focus,
-.button-item:hover,
-.button-item:focus {
+.button-item-portofolio:focus {
   background: var(--blue);
   color: var(--white);
   cursor: pointer;
@@ -239,6 +237,8 @@ align-items: center;
 .button-item {
  margin: 0 auto 200px auto;
  padding:10px 20px;
+ background-color:var(--blue);
+ color:var(--white);
 }
 
 .second-section{
@@ -386,7 +386,7 @@ align-items: center;
 .envelope,
 .smartphone {
   fill: var(--medium-grey);
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 
@@ -445,7 +445,7 @@ align-items: center;
   height: 44px;
   border-radius: 22px;
   border: none;
-  transition: background 0.3s;
+  transition: background 0.25s;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -540,7 +540,7 @@ margin: 94px auto 0 auto;
   height: 44px;
   border-radius: 22px;
   border: none;
-  transition: background 1s;
+  transition: background 0.25s;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -548,6 +548,7 @@ margin: 94px auto 0 auto;
 
 .footer-media-button:hover {
   background: var(--blue);
+  cursor: pointer;
 }
 
 
